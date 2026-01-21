@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Méthodologie | ISALIA Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo"><span class="logo__icon">✦</span> ISALIA <span class="logo__highlight">Studio</span></a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-burger"><span></span><span></span><span></span></label>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Accueil</a></li>
+                    <li><a href="services.html" class="nav__link">Services</a></li>
+                    <li><a href="solutions.html" class="nav__link">Solutions</a></li>
+                    <li><a href="process.html" class="nav__link active">Processus</a></li>
+                    <li><a href="about.html" class="nav__link">À propos</a></li>
+                    <li><a href="contact.html" class="nav__btn btn btn--primary">Parler à une IA</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title fade-in-up">Notre <span class="text-gradient">Méthodologie</span></h1>
+                <p class="page-subtitle fade-in-up delay-1">De l'analyse à l'automatisation complète : un déploiement sécurisé en 4 étapes.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="timeline">
+                    <!-- Step 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">01</div>
+                        <div class="timeline-content glass">
+                            <h3>Audit & Cartographie</h3>
+                            <p>Nous analysons vos flux de travail actuels pour identifier les goulots d'étranglement et les tâches à haute valeur d'automatisation. Nous définissons le ROI attendu.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">02</div>
+                        <div class="timeline-content glass">
+                            <h3>Architecture & Design</h3>
+                            <p>Nos ingénieurs conçoivent l'architecture de vos agents IA. Nous sélectionnons les meilleurs modèles (LLMs) et définissons les règles de sécurité et de comportement.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">03</div>
+                        <div class="timeline-content glass">
+                            <h3>Intégration & Entraînement</h3>
+                            <p>Nous connectons les agents à vos outils existants (CRM, Email, Slack). Nous les entraînons sur vos données spécifiques pour qu'ils maîtrisent votre expertise.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">04</div>
+                        <div class="timeline-content glass">
+                            <h3>Optimisation Continue</h3>
+                            <p>Le déploiement n'est que le début. Nos systèmes apprennent de chaque interaction pour devenir plus performants, rapides et précis chaque semaine.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Security Section -->
+        <section class="section section--dark">
+            <div class="container text-center">
+                <h2 class="section-title">Sécurité & Fiabilité</h2>
+                <div class="grid grid--3">
+                    <div class="card">
+                        <div class="card__icon">🔒</div>
+                        <h4>Données Chiffrées</h4>
+                        <p>Vos données d'entreprise sont isolées et chiffrées. Elles ne servent pas à entraîner des modèles publics.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card__icon">🛡️</div>
+                        <h4>Contrôle Humain</h4>
+                        <p>Des garde-fous stricts empêchent l'IA de prendre des décisions critiques sans validation si nécessaire.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card__icon">☁️</div>
+                        <h4>Conformité RGPD</h4>
+                        <p>Tous nos agents sont conçus en respectant les normes européennes de protection des données.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-center">&copy; 2024 ISALIA Studio.</p>
+        </div>
+    </footer>
+</body>
+</html>
